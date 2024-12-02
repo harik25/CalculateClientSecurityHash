@@ -1,0 +1,1135 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="873.3333333333334,11704" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uuam="clr-namespace:UiPath.UIAutomationNext.Activities.Models;assembly=UiPath.UIAutomationNext.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="814.6666666666666,11639.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="Dt_aecc" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:BuildDataTable DataTable="[Dt_aecc]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="752.6666666666666,100" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Name&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;1000&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Community&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Province&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Municipality&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Type_x0020_of_x0020_Centre&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;GLA&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Address&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Telephone&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Web&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Email&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Managing_x0020_Company&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Letting_x0020_Agency&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Ownership&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Operating_x0020_System&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Developer&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Year_x0020_of_x0020_Opening&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Gross_x0020_Floor_x0020_Space&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Total_x0020_number_x0020_of_x0020_shops&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Exterior_x0020_Shops&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Integrated_x0020_Shops&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Total_x0020_number_x0020_of_x0020_floors&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Retail&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Car_x0020_Parking&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Total_x0020_number_x0020_of_x0020_parking_x0020_spaces&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Indoor_x0020_spaces&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Conditions_x0020_of_x0020_use_x0020_of_x0020_parking&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Management_x0020_and_x0020_services&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;In_x0020_Shops&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Number_x0020_of_x0020_Visitors_x0020__x0028_Year_x0029_&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Walking&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Own_x0020_Transportation&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Tenant&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Tenant_x0020_Category&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Tenant_x0020_GLA&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Industry&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Industry_x0020_GLA&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: AECC - Directorio de Centros comerciales" sap:VirtualizedContainerService.HintSize="752.6666666666666,11451.333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="5e0ba07d-ad75-433b-9b28-fbe11303d85e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="718.6666666666666,11209.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="656.6666666666666,124.66666666666667" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://directoriocentroscomerciales.aedecc.com/busqueda" Version="V3" />
+            <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times - After Nth Page" sap:VirtualizedContainerService.HintSize="656.6666666666666,482" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="40" StartAt="1">
+              <ui:RepeatNumberOfTimesX.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,272" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="354,184.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/busqueda&amp;c=&amp;com=&amp;prov=&amp;loc=" CvTextArea="1833, 839, 33, 13" CvTextArgument="Next" CvType="Text" DesignTimeRectangle="1820, 528, 61, 36" DesignTimeScaleFactor="1.125" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='inboxTable_next' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='inboxTable_next' tag='A' type='' class='' aaname='Next' check:innerText='Next' /&gt;" Guid="a2293b7d-11bf-4297-a574-23f4e3b39de6" InformativeScreenshot="146bd1ac18195bc2029afe3b53f9c521.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directory of Shopping Centers' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvElementArea="1458, 976, 128, 42" CvType="Button" DesignTimeRectangle="1458, 525, 128, 42" ElementType="Button" FriendlyName="'chrome.exe AECC'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RepeatNumberOfTimesX.Body>
+            </ui:RepeatNumberOfTimesX>
+            <uix:NForEachUiElement DisplayName="For Each UI Element" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='CurrentElement'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Name'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Community'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column3' Name='Province'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column4' Name='Municipality'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column5' Name='Type'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' ReferenceName='Column7' Name='GLA'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column2' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;webctrl tag='a' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column1' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='2' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column3' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='4' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='5' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column7' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='6' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="656.6666666666666,10515.333333333334" sap2010:WorkflowViewState.IdRef="NForEachUiElement_1" InteractionMode="Simulate" LimitExtractionTo="Page" MaximumResults="18" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" Version="V3">
+              <uix:NForEachUiElement.Body>
+                <ActivityAction x:TypeArguments="x:Int32">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="592,10221.333333333334" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:String" Name="Address" />
+                      <Variable x:TypeArguments="x:String" Name="Telephone" />
+                      <Variable x:TypeArguments="x:String" Name="Web" />
+                      <Variable x:TypeArguments="x:String" Name="Email" />
+                      <Variable x:TypeArguments="x:String" Name="ManagingCompany" />
+                      <Variable x:TypeArguments="x:String" Name="LettingCompany" />
+                      <Variable x:TypeArguments="x:String" Name="ownership" />
+                      <Variable x:TypeArguments="x:String" Name="OperatingSystem" />
+                      <Variable x:TypeArguments="x:String" Name="Developer" />
+                      <Variable x:TypeArguments="x:String" Name="Yearofopening" />
+                      <Variable x:TypeArguments="x:String" Name="Grossfloorspace" />
+                      <Variable x:TypeArguments="x:String" Name="Totalshops" />
+                      <Variable x:TypeArguments="x:String" Name="exteriorshops" />
+                      <Variable x:TypeArguments="x:String" Name="integratedshops" />
+                      <Variable x:TypeArguments="x:String" Name="totalfloors" />
+                      <Variable x:TypeArguments="x:String" Name="retail" />
+                      <Variable x:TypeArguments="x:String" Name="carparking" />
+                      <Variable x:TypeArguments="x:String" Name="totalparkingspace" />
+                      <Variable x:TypeArguments="x:String" Name="indoorspace" />
+                      <Variable x:TypeArguments="x:String" Name="numberofvisitors" />
+                      <Variable x:TypeArguments="x:String" Name="walking" />
+                      <Variable x:TypeArguments="x:String" Name="owntransportation" />
+                      <Variable x:TypeArguments="x:String" Name="conditionofuse" />
+                      <Variable x:TypeArguments="x:String" Name="managementservice" />
+                      <Variable x:TypeArguments="x:String" Name="inshops" />
+                      <Variable x:TypeArguments="x:String" Name="tenant1" />
+                      <Variable x:TypeArguments="x:String" Name="tenantcategory1" />
+                      <Variable x:TypeArguments="x:String" Name="tenantgla1" />
+                      <Variable x:TypeArguments="x:String" Name="Table1tenantcategory" />
+                      <Variable x:TypeArguments="sd:DataTable" Name="tenantdt1" />
+                      <Variable x:TypeArguments="x:String" Name="Table2tenantcategory" />
+                      <Variable x:TypeArguments="sd:DataTable" Name="tenantdt2" />
+                      <Variable x:TypeArguments="sd:DataTable" Name="industry" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Double" CursorMotionType="Instant" DisplayName="Click" sap:VirtualizedContainerService.HintSize="530,181.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InUiElement="[CurrentElement]" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" Version="V3" />
+                    <If Condition="[string.IsNullOrEmpty(Province) = true]" sap:VirtualizedContainerService.HintSize="530,474" sap2010:WorkflowViewState.IdRef="If_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,101.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="496,192.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_1">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[Province]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[Province.ToString.Replace("." , "")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <If Condition="[string.IsNullOrEmpty(GLA) = true]" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="If_9">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_12">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[GLA]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[GLA.Replace(".","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="530,187.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[CurrentIndex.ToString +&quot; --&quot; +Name +&quot; --&quot; + Community]" />
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Address'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Address]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="998, 639, 903, 43" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Address: Avda.'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' parentid='printinfoficha' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='P' class='' aaname='' /&gt;" Guid="f300193e-ac26-421a-aa7b-3f51dd3860ae" InformativeScreenshot="e2b64872251161a920cd0f548a4c5f56.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 639, 64, 20" FriendlyName="'Address'" FullSelectorArgument="&lt;webctrl parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='B' type='' class='' aaname='Address: ' check:innerText='Address:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(Address) = true]" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="If_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_2">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[Address]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[Address.ToString.Replace("Address: " , "")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Telephone'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Telephone]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1079, 682, 85, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'928 424 168'" FullSelectorArgument="&lt;webctrl aaname='928 424 168 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="efd60f8c-53a4-4f95-9f34-265fccc6c240" InformativeScreenshot="d3009f15389f67b5a0630c5d0d63fd76.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 682, 81, 20" FriendlyName="'Telephone'" FullSelectorArgument="&lt;webctrl idx='2' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Telephone: ' check:innerText='Telephone:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(Telephone) = true]" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="If_11">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_13">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[Telephone]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[Telephone.Replace(" ","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Web'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Web]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1037, 603, 155, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'www.cco7palmas.com'" FullSelectorArgument="&lt;webctrl aaname='www.cco7palmas.com' parentid='printinfoficha' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='A' type='' class='' /&gt;" Guid="b4a7ef10-98aa-4933-a6d1-490ea87c45f7" InformativeScreenshot="79633a02b947dcbff107aca11edf95e4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 603, 39, 20" FriendlyName="'Web'" FullSelectorArgument="&lt;webctrl idx='3' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Web: ' check:innerText='Web:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'E-mail'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Email]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1049, 624, 190, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'email'" FullSelectorArgument="&lt;webctrl aaname='gerencia@cco7palmas.com ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="f47a8d20-55b3-47e3-ace7-091e295eb7e8" InformativeScreenshot="f2c1b456a8b5f059e5ba23709e866d58.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 624, 51, 20" FriendlyName="'E-mail'" FullSelectorArgument="&lt;webctrl idx='4' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='E-mail: ' check:innerText='E-mail:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Managing Company'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[ManagingCompany]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1145, 731, 273, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'IBSA Canarias'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p&amp;gt;span' idx='7' isleaf='1' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' isleaf='1' parentid='printinfoficha' tag='SPAN' /&gt;" Guid="38eab5b5-e80d-43d2-ae06-871b52d63e0e" InformativeScreenshot="142d4b895666459ac5616cb1e80df432.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 731, 147, 20" FriendlyName="'Managing Company'" FullSelectorArgument="&lt;webctrl idx='9' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Managing Company: ' check:innerText='Managing Company:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Letting Agency'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[LettingCompany]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1108, 753, 273, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'IBSA Canarias'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p&amp;gt;span' idx='8' isleaf='1' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' isleaf='1' parentid='printinfoficha' tag='SPAN' /&gt;" Guid="403a440d-8db8-4803-8a86-af41fbbea706" InformativeScreenshot="fcd8b8b39144749349de23ccf829c0a5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 753, 110, 20" FriendlyName="'Letting Agency'" FullSelectorArgument="&lt;webctrl idx='10' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Letting Agency: ' check:innerText='Letting Agency:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Ownership'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[ownership]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1082, 837, 273, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'IBSA Canarias'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p&amp;gt;span' idx='9' isleaf='1' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' isleaf='1' parentid='printinfoficha' tag='SPAN' /&gt;" Guid="5d99406c-74e2-4b2f-922e-14e2683b8ca3" InformativeScreenshot="93bb32189cc874ba02103920fb2b69b9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 837, 84, 20" FriendlyName="'Ownership'" FullSelectorArgument="&lt;webctrl idx='11' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Ownership: ' check:innerText='Ownership:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Operating system'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[OperatingSystem]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1129, 859, 48, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Letting'" FullSelectorArgument="&lt;webctrl aaname='Letting ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="1ff876cb-8262-496c-9ad5-79b284814c3f" InformativeScreenshot="a84c255ae84b639e512a890a3a69a4a7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 859, 131, 20" FriendlyName="'Operating system'" FullSelectorArgument="&lt;webctrl idx='12' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Operating system: ' check:innerText='Operating system:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Developer'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Developer]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1077, 943, 80, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Grupo IBSA'" FullSelectorArgument="&lt;webctrl aaname='Grupo IBSA ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="6978922e-14b7-4877-bdb8-1e1eeca4d8d4" InformativeScreenshot="b7095b181c6a7c6785fa70f3936f97fa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 943, 79, 20" FriendlyName="'Developer'" FullSelectorArgument="&lt;webctrl idx='13' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Developer: ' check:innerText='Developer:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Year of Opening'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_10" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Yearofopening]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1118, 486, 69, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'June 2002'" FullSelectorArgument="&lt;webctrl aaname='June 2002 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="afcef521-7c4e-4a5d-9b01-d2fe6e7e430d" InformativeScreenshot="da9e8995f6be9607dd4e5def873b837e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 486, 120, 20" FriendlyName="'Year of Opening'" FullSelectorArgument="&lt;webctrl idx='15' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Year of Opening: ' check:innerText='Year of Opening:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Gross floor space'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_11" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Grossfloorspace]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1127, 613, 79, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'120.000 m²'" FullSelectorArgument="&lt;webctrl aaname='120.000  m²' class='mdos' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='mdos' parentid='printinfoficha' tag='SPAN' type='' /&gt;" Guid="8aae7e1d-5d92-4bd2-b89a-b48afa50f706" InformativeScreenshot="0b0464dae3e9de5b0ed0a8078bf0e848.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 613, 129, 20" FriendlyName="'Gross floor space'" FullSelectorArgument="&lt;webctrl idx='18' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Gross floor space: ' check:innerText='Gross floor space:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(Grossfloorspace) = true]" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="If_5">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_3">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[Grossfloorspace]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[Grossfloorspace.ToString.Replace(".","").Replace("m²" ,"")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Total number of shops'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_12" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Totalshops]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1163, 635, 17, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'87'" FullSelectorArgument="&lt;webctrl aaname='87 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="d062c885-4f31-4a37-b37c-1b584c027a1f" InformativeScreenshot="8b36f9f418c7328a2d5641161524ea3b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 635, 165, 20" FriendlyName="'Total number of shops'" FullSelectorArgument="&lt;webctrl idx='19' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Total number of shops: ' check:innerText='Total number of shops:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Exterior shops'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_13" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[exteriorshops]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1107, 656, 9, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'5'" FullSelectorArgument="&lt;webctrl aaname='5 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="d66d4493-9850-4a48-b2ba-7bc49c05104d" InformativeScreenshot="0d0777a5533cdfc19b118d482dd9a5ae.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 656, 109, 20" FriendlyName="'Exterior shops'" FullSelectorArgument="&lt;webctrl idx='20' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Exterior shops: ' check:innerText='Exterior shops:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Integrated shops'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_14" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[integratedshops]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1124, 678, 17, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'82'" FullSelectorArgument="&lt;webctrl aaname='82 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="8c48ffc9-c38f-440a-9ea4-c30f0c95f8fa" InformativeScreenshot="cf6e937b8438cb4a7d7a1678740d894b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 678, 126, 20" FriendlyName="'Integrated shops'" FullSelectorArgument="&lt;webctrl idx='21' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='   Integrated shops: ' check:innerText='Integrated shops:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Total number of floors'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_15" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[totalfloors]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1162, 699, 9, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'7'" FullSelectorArgument="&lt;webctrl aaname='7 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="7b70a471-4032-4499-962e-591dc2a903a9" InformativeScreenshot="de59cb25d65557deb821d7609840c0ee.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 699, 164, 20" FriendlyName="'Total number of floors'" FullSelectorArgument="&lt;webctrl idx='22' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Total number of floors: ' check:innerText='Total number of floors:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Retail'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_16" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[retail]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1045, 720, 9, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'4'" FullSelectorArgument="&lt;webctrl aaname='4 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="c37e7304-416c-43ec-8537-86e2434fcdbc" InformativeScreenshot="6a02a12d3a4dcf55fa3f96f0baacf8ce.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 720, 47, 20" FriendlyName="'Retail'" FullSelectorArgument="&lt;webctrl idx='23' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Retail: ' check:innerText='Retail:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Car parking'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_17" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[carparking]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1086, 742, 9, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'3'" FullSelectorArgument="&lt;webctrl aaname='3 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="93e34165-ee82-46f0-8b46-e3bc0b6f53f0" InformativeScreenshot="40a462ed0bb6208abbaac0aeebaa6726.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 742, 88, 20" FriendlyName="'Car parking'" FullSelectorArgument="&lt;webctrl idx='24' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Car parking: ' check:innerText='Car parking:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DelayAfter="0" DelayBefore="0" DisplayName="Get Text 'Total number'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_18" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[totalparkingspace]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1226, 763, 38, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'1.500'" FullSelectorArgument="&lt;webctrl aaname='1.500 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="ed6951ac-e976-46c1-8891-8d7408050411" InformativeScreenshot="57fd84a8528464c21665ae737ae9c5f1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 763, 228, 20" FriendlyName="'Total number'" FullSelectorArgument="&lt;webctrl idx='25' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname=' Total number of parking spaces: ' check:innerText='Total number of parking spaces:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(totalparkingspace) = true]" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="If_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,101.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="496,192.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_4">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[totalparkingspace]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[totalparkingspace.ToString.Replace(".","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Indoor spaces'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_19" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[indoorspace]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1104, 785, 38, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'1.500'" FullSelectorArgument="&lt;webctrl aaname='1.500 ' idx='2' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='SPAN' class='' /&gt;" Guid="9f31d013-0fb0-463b-bb0a-6555f31df9c7" InformativeScreenshot="70dd445568a232ed6f696187773a1dd5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 785, 106, 20" FriendlyName="'Indoor spaces'" FullSelectorArgument="&lt;webctrl idx='26' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Indoor spaces: ' check:innerText='Indoor spaces:' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(indoorspace) = true]" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="If_3">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_5">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[indoorspace]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[indoorspace.ToString.Replace(".","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Conditions of'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_23" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[conditionofuse]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" CvTextArea="1202, 720, 31, 13" CvType="AnyWordGroup" DesignTimeRectangle="1203, 716, 30, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Free'" FullSelectorArgument="&lt;webctrl aaname='Free ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="f1198899-b85c-4779-b772-1cb1cbf8b5ae" InformativeScreenshot="0fc3bd49cda40a8230e9e6ea36e8585c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="997, 718, 202, 19" CvTextArgument="Conditions of use of parking:" CvType="Text" DesignTimeRectangle="998, 716, 205, 20" FriendlyName="'Conditions of'" FullSelectorArgument="&lt;webctrl idx='27' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Conditions of use of parking: ' check:innerText='Conditions of use of parking:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Management and services'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_24" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[managementservice]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" CvTextArea="1188, 805, 19, 13" CvType="AnyWordGroup" DesignTimeRectangle="1189, 801, 17, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'36'" FullSelectorArgument="&lt;webctrl aaname='36 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="385c0b87-514d-49a0-a4c3-eba904b13749" InformativeScreenshot="bf52169a1ff104d40add162b757d06bf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="997, 804, 188, 17" CvTextArgument="Management and services:" CvType="Text" DesignTimeRectangle="998, 801, 191, 20" FriendlyName="'Management and services'" FullSelectorArgument="&lt;webctrl idx='28' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Management and services: ' check:innerText='Management and services:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'In shops'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_25" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[inshops]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" CvTextArea="1064, 826, 27, 13" CvType="AnyWordGroup" DesignTimeRectangle="1065, 822, 26, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'600'" FullSelectorArgument="&lt;webctrl aaname='600 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="89bee1b5-48b3-41ea-a3ee-fa66887b5dd2" InformativeScreenshot="052f3df308963fe595a76a6cb7ce3116.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="997, 824, 65, 19" CvTextArgument="In shops:" CvType="Text" DesignTimeRectangle="998, 822, 67, 20" FriendlyName="'In shops'" FullSelectorArgument="&lt;webctrl idx='29' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='In shops: ' check:innerText='In shops:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(inshops) = true]" sap:VirtualizedContainerService.HintSize="530,474" sap2010:WorkflowViewState.IdRef="If_14">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,101.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="496,192.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_17">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[inshops]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[inshops.Replace(".","").Trim.ToString]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Number of'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_20" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[numberofvisitors]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1179, 683, 68, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'7.550.000'" FullSelectorArgument="&lt;webctrl aaname='7.550.000 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="14e5fdcd-1c59-4ceb-bd65-b523ed86432e" InformativeScreenshot="d670718f75f7781548432249534a8a9e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 683, 181, 20" FriendlyName="'Number of'" FullSelectorArgument="&lt;webctrl idx='31' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' aaname='Number of visitors (year): ' check:innerText='Number of visitors (year):' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(numberofvisitors) = true]" sap:VirtualizedContainerService.HintSize="530,94" sap2010:WorkflowViewState.IdRef="If_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_14">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[numberofvisitors]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[numberofvisitors.Replace(".","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Walking'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_21" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[walking]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1653, 543, 238, 28" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'48 %'" FullSelectorArgument="&lt;webctrl idx='4' parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl type='' class='propName-right ' tag='TD' /&gt;" Guid="5facd76a-9bee-4d28-9390-2c97f70802dd" InformativeScreenshot="8bf266850bdb8b17aa76588b46b1484d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1008, 543, 554, 28" ElementType="Text" FriendlyName="'Walking'" FullSelectorArgument="&lt;webctrl idx='4' parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='ficha-pad-text ' aaname='Walking' check:innerText='Walking' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Own transportation'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_22" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[owntransportation]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1653, 571, 238, 28" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'52 %'" FullSelectorArgument="&lt;webctrl idx='4' parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl tableCol='3' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl type='' class='propName-right ' tag='TD' /&gt;" Guid="0ca481ba-aec9-4247-96a6-4c36e06a7a2f" InformativeScreenshot="9b0f18c3f9e845a58f0f4b2433a3e46e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1008, 571, 554, 28" ElementType="Text" FriendlyName="'Own transportation'" FullSelectorArgument="&lt;webctrl idx='4' parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='ficha-pad-text ' aaname='Own transportation' check:innerText='Own transportation' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ Name , Community , Province ,  Municipality , Type , GLA , Address , Telephone , Web , Email , ManagingCompany , LettingCompany , ownership  , OperatingSystem , Developer , Yearofopening , Grossfloorspace , Totalshops , exteriorshops , integratedshops , totalfloors , retail , carparking , totalparkingspace , indoorspace , conditionofuse , managementservice , inshops , numberofvisitors , walking , owntransportation , &quot;&quot; , &quot;&quot;  , &quot;&quot; , &quot;&quot; ,&quot;&quot; }]" DataTable="[Dt_aecc]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="530,231.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Tenant Mix'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_26" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[tenant1]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" CvTextArea="1269, 609, 118, 14" CvType="AnyWordGroup" DesignTimeRectangle="1270, 606, 117, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Mercadona 2739'" FullSelectorArgument="&lt;webctrl aaname='Mercadona 2739 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="056d6802-a3eb-4cb0-90bd-4d690610ec3f" InformativeScreenshot="acde1bd3c0781a21e255b369e6a980ce.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="995, 565, 159, 28" CvTextArgument="Tenant Mix" CvType="Text" DesignTimeRectangle="998, 563, 903, 33" ElementType="Text" FriendlyName="'Tenant Mix'" FullSelectorArgument="&lt;webctrl class='registro-btn-red' idx='6' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl class='registro-btn-red' type='' tag='H2' aaname='Tenant Mix' check:innerText='Tenant Mix' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(tenant1) = true]" sap:VirtualizedContainerService.HintSize="530,94" sap2010:WorkflowViewState.IdRef="If_2">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_7">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[tenant1]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match(tenant1,"[^\d.]+").Value]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Tenant Mix'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_27" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[tenantcategory1]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" CvTextArea="996, 608, 270, 19" CvType="AnyWordGroup" DesignTimeRectangle="998, 606, 272, 20" DesignTimeScaleFactor="1" FriendlyName="'Hypermarket (shop'" FullSelectorArgument="&lt;webctrl idx='30' parentid='printinfoficha' tag='B' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='printinfoficha' tag='B' class='' /&gt;" Guid="f1bd57a0-c7cc-4232-a61f-c0684c12b38b" InformativeScreenshot="b4bc09d9fbc623d2725bdd46e9445aa6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="995, 565, 159, 28" CvTextArgument="Tenant Mix" CvType="Text" DesignTimeRectangle="998, 563, 903, 33" ElementType="Text" FriendlyName="'Tenant Mix'" FullSelectorArgument="&lt;webctrl class='registro-btn-red' idx='6' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl class='registro-btn-red' type='' tag='H2' aaname='Tenant Mix' check:innerText='Tenant Mix' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(tenantcategory1) = true]" sap:VirtualizedContainerService.HintSize="530,474" sap2010:WorkflowViewState.IdRef="If_12">
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,101.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="496,192.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,108" sap2010:WorkflowViewState.IdRef="Assign_15">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[tenantcategory1]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[tenantcategory1.Replace("(shop sign and area, m²):","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Tenant Mix'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_28" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[tenantgla1]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" CvTextArea="1269, 609, 118, 14" CvType="AnyWordGroup" DesignTimeRectangle="1270, 606, 117, 20" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Mercadona 2739'" FullSelectorArgument="&lt;webctrl aaname='Mercadona 2739 ' parentid='printinfoficha' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='printinfoficha' tag='SPAN' type='' class='' /&gt;" Guid="8608b6bf-71af-4810-b9dc-0e991178f34a" InformativeScreenshot="df5409a0b33817104e64f270ba388092.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="995, 565, 159, 28" CvTextArgument="Tenant Mix" CvType="Text" DesignTimeRectangle="998, 563, 903, 33" ElementType="Text" FriendlyName="'Tenant Mix'" FullSelectorArgument="&lt;webctrl class='registro-btn-red' idx='6' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl class='registro-btn-red' type='' tag='H2' aaname='Tenant Mix' check:innerText='Tenant Mix' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <If Condition="[string.IsNullOrEmpty(tenantgla1) = true]" sap:VirtualizedContainerService.HintSize="530,94" sap2010:WorkflowViewState.IdRef="If_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="300,81.33333333333333" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="476,172.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_8">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[tenantgla1]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[System.Text.RegularExpressions.Regex.Match( tenantgla1, "\d+(\.\d+)?").Value.ToString.Replace(".","")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ Name ,  &quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;, tenant1 , tenantcategory1 , tenantgla1, &quot;&quot;,&quot;&quot; }]" DataTable="[Dt_aecc]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="530,231.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Tenant Mix'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_29" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Table1tenantcategory]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/1" DesignTimeRectangle="1008, 428, 883, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Major retail tenants'" FullSelectorArgument="&lt;webctrl tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H4' type='' class='registro-btn-red ficha-pad-text' /&gt;" Guid="42816567-87b6-40c6-8f41-1e5c21a9ada3" InformativeScreenshot="92fa06e52f683a377993904e3f11e0e6.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="998, 353, 903, 33" ElementType="Text" FriendlyName="'Tenant Mix'" FullSelectorArgument="&lt;webctrl class='registro-btn-red' idx='6' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl class='registro-btn-red' type='' tag='H2' aaname='Tenant Mix' check:innerText='Tenant Mix' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[tenantdt1]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Table1tenant' ReferenceName='Column0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Table1tenantgla' ReferenceName='Column5'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='tr' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column0' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='fulltext'&gt;&lt;webctrl tag='tr' /&gt;&lt;webctrl tag='td' idx='3' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="530,200" sap2010:WorkflowViewState.IdRef="NExtractData_1" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" Version="V3">
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1009, 455, 881, 324" DesignTimeScaleFactor="1" FriendlyName="'Worten 2.152 m²'" FullSelectorArgument="&lt;webctrl parentid='printinfoficha' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="06085b36-0025-4ce8-a9eb-646db90fc9b0" InformativeScreenshot="1d56168b640c3fefbd6dcdc41576639e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[tenantdt1]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="530,94" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="tenant1row" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,404" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Name="Table1tenantgla" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_9">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[Table1tenantgla]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[tenant1row("Table1tenantgla").ToString.Replace(".","").Replace("m²","")]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ Name ,  &quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;, tenant1row(&quot;Table1tenant&quot;) , Table1tenantcategory , Table1tenantgla, &quot;&quot;,&quot;&quot; }]" DataTable="[Dt_aecc]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,191.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_3" />
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:ForEachRow>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Tenant Mix %'" sap:VirtualizedContainerService.HintSize="530,199.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_30" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" TextString="[Table2tenantcategory]" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/ficha/53" CvTextArea="1047, 621, 189, 17" CvType="AnyWordGroup" DesignTimeRectangle="1016, 858, 868, 19" DesignTimeScaleFactor="1.125" ElementType="Text" FriendlyName="'Leisure and restaurants'" FullSelectorArgument="&lt;webctrl idx='2' tag='H4' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='H4' class='registro-btn-red ficha-pad-text' check:text='' /&gt;" Guid="95d2ce37-059e-482a-bae5-c816de3900cb" ImageBase64="" InformativeScreenshot="195a7de37d2765b0b94ddb1779098383.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CvTextArea="1001, 891, 213, 31" CvTextArgument="Tenant Mix %" CvType="Text" DesignTimeRectangle="1005, 1125, 890, 37" ElementType="Text" FriendlyName="'Tenant Mix %'" FullSelectorArgument="&lt;webctrl class='registro-btn-red' idx='7' tag='H2' /&gt;" FuzzySelectorArgument="&lt;webctrl class='registro-btn-red' type='' tag='H2' aaname='Tenant Mix %' check:innerText='Tenant Mix %' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[tenantdt2]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Table2tenant' ReferenceName='Column-0' ReferenceIdx='0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' IsDeleted='true' Name='Column-1' ReferenceName='Column-1' ReferenceIdx='1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Table2tenantgla' ReferenceName='Column-2' ReferenceIdx='2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Column-0' attr='fulltext' /&gt;&lt;column name='Column-1' attr='fulltext' /&gt;&lt;column name='Column-2' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="530,200" sap2010:WorkflowViewState.IdRef="NExtractData_2" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" Version="V3">
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1008, 624, 883, 342" DesignTimeScaleFactor="1" FriendlyName="'Cinesa (9'" FullSelectorArgument="&lt;webctrl idx='2' parentid='printinfoficha' tag='TABLE' /&gt;" Guid="bd9f8113-f06f-4326-a099-acab53c24f3a" InformativeScreenshot="f9d943aaaf7ae825289f09d4b33f51d5.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[tenantdt2]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="510,54" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="tenant2row" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,404" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Name="Table2tenantgla" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_10">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[Table2tenantgla]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[tenant2row("Table2tenantgla").ToString.Replace(".","").Replace("m²","")]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ Name ,  &quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;, tenant2row(&quot;Table2tenant&quot;) , Table2tenantcategory , Table2tenantgla, &quot;&quot;,&quot;&quot; }]" DataTable="[Dt_aecc]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,191.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_4" />
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:ForEachRow>
+                    <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[industry]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Table' AddCvHeader='true' IsScrollEnabled='false'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Industry' ReferenceName='Column-0' ReferenceIdx='0'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' IsDeleted='true' Name='Column-1' ReferenceName='Column-1' ReferenceIdx='1'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='Industrygla' ReferenceName='Column-2' ReferenceIdx='2'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract-table get_columns_name='1' get_empty_columns='1' columns_name_source='Longest'&gt;&lt;column name='Column-0' attr='fulltext' /&gt;&lt;column name='Column-1' attr='fulltext' /&gt;&lt;column name='Column-2' attr='fulltext' /&gt;&lt;/extract-table&gt;" sap:VirtualizedContainerService.HintSize="510,160" sap2010:WorkflowViewState.IdRef="NExtractData_3" LimitExtractionTo="None" MaximumResults="0" ScopeIdentifier="5e0ba07d-ad75-433b-9b28-fbe11303d85e" Version="V3">
+                      <uix:NExtractData.Target>
+                        <uix:TargetAnchorable DesignTimeRectangle="1008, 635, 883, 228" DesignTimeScaleFactor="1" FriendlyName="'Food (Hyper/Super) 5.125'" FullSelectorArgument="&lt;webctrl idx='3' parentid='printinfoficha' tag='TABLE' /&gt;" Guid="b8e4b650-1b99-4818-b8e7-9be860d5ab29" InformativeScreenshot="c4613327ccaf6050e86fd62a83d022fa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                      </uix:NExtractData.Target>
+                    </uix:NExtractData>
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[industry]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="530,65.33333333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+                      <ui:ForEachRow.Body>
+                        <ActivityAction x:TypeArguments="sd:DataRow">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="476,404" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <Sequence.Variables>
+                              <Variable x:TypeArguments="x:String" Name="industrygla" />
+                            </Sequence.Variables>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Assign sap:VirtualizedContainerService.HintSize="434,85.33333333333333" sap2010:WorkflowViewState.IdRef="Assign_11">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:String">[industrygla]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:String">[CurrentRow("Industrygla").ToString.Split("m")(0).Tostring.Replace(".","")]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[{ Name ,  &quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;,&quot;&quot;, &quot;&quot; , &quot;&quot; , &quot;&quot;, CurrentRow(&quot;Industry&quot;) ,industrygla }]" DataTable="[Dt_aecc]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,191.33333333333334" sap2010:WorkflowViewState.IdRef="AddDataRow_5" />
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEachRow.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:ForEachRow>
+                    <ui:WriteRange StartingCell="{x:Null}" AddHeaders="True" DataTable="[Dt_aecc]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="530,156" sap2010:WorkflowViewState.IdRef="WriteRange_1" SheetName="AECC Data" WorkbookPath="Aecc Datas.xlsx" />
+                    <uix:NNavigateBrowser DisplayName="Navigate Browser - Go Back" sap:VirtualizedContainerService.HintSize="530,124.66666666666667" sap2010:WorkflowViewState.IdRef="NNavigateBrowser_1" Version="V3" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="530,172.66666666666666" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Warn]" Message="[&quot;Success&quot;]" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NForEachUiElement.Body>
+              <uix:NForEachUiElement.NextLink>
+                <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/busqueda" CvTextArea="1862, 659, 23, 11" CvTextArgument="Next" CvType="Text" DesignTimeRectangle="1853, 654, 41, 25" DesignTimeScaleFactor="0.75" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='inboxTable_next' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='inboxTable_next' tag='A' type='' class='' aaname='Next' check:innerText='Next' /&gt;" Guid="f8412e62-d934-4ecb-ae7e-d622e03ccf1b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NForEachUiElement.NextLink>
+              <uix:NForEachUiElement.Target>
+                <uix:TargetAnchorable BrowserURL="https://directoriocentroscomerciales.aedecc.com/busqueda" DesignTimeRectangle="960, 393, 935, 248" DesignTimeScaleFactor="0.75" FriendlyName="'7 Palmas CANARIAS'" FullSelectorArgument="&lt;webctrl id='inboxTable' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="fcf7f838-06f5-43e0-8370-c731929e84a0" InformativeScreenshot="73bf6f32ba735ed0459aa8089dadf71d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+              </uix:NForEachUiElement.Target>
+              <uix:NForEachUiElement.Variables>
+                <Variable x:TypeArguments="ui:UiElement" Name="CurrentElement" />
+                <Variable x:TypeArguments="x:String" Name="CurrentElement_Label" />
+                <Variable x:TypeArguments="x:String" Name="Name" />
+                <Variable x:TypeArguments="x:String" Name="Community" />
+                <Variable x:TypeArguments="x:String" Name="Province" />
+                <Variable x:TypeArguments="x:String" Name="Municipality" />
+                <Variable x:TypeArguments="x:String" Name="Type" />
+                <Variable x:TypeArguments="x:String" Name="GLA" />
+              </uix:NForEachUiElement.Variables>
+              <uix:NForEachUiElement.VariablesMetadata>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column0" Capacity="4">
+                  <uuam:VariableMetadata Name="CurrentElement" Type="ui:UiElement" />
+                  <uuam:VariableMetadata Name="CurrentElement_Label" Type="x:String" />
+                </scg:List>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column2" Capacity="4">
+                  <uuam:VariableMetadata Name="Name" Type="x:String" />
+                </scg:List>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column1" Capacity="4">
+                  <uuam:VariableMetadata Name="Community" Type="x:String" />
+                </scg:List>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column3" Capacity="4">
+                  <uuam:VariableMetadata Name="Province" Type="x:String" />
+                </scg:List>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column4" Capacity="4">
+                  <uuam:VariableMetadata Name="Municipality" Type="x:String" />
+                </scg:List>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column5" Capacity="4">
+                  <uuam:VariableMetadata Name="Type" Type="x:String" />
+                </scg:List>
+                <scg:List x:TypeArguments="uuam:VariableMetadata" x:Key="Column7" Capacity="4">
+                  <uuam:VariableMetadata Name="GLA" Type="x:String" />
+                </scg:List>
+              </uix:NForEachUiElement.VariablesMetadata>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NForEachUiElement>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="1912, -8, 1936, 1056" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAwASURBVGhDxZl7cFTVHcd3pqOgKAQEFeQRIIQ8N5vdBAOBsHkIkUcSOu2M01GTmb7sHx1mnOlMq22DM7X1nRgeawMhPATbUsWq02kryQaSGINI9I+q40xZwIQQKNkkqAR295x+f79zzr131wCiaM/Md76/3++cm/v5nXvusgmu6zFCfk/SmRJvzZmy/LqB0rz9Z0rzQ2dL8sIDJXlyoCRfni3NR+wLoR48U5JX11fqq+r3e5L15f+fQdDnSvPXnynOCxpQ5Y642ORKp4t9WjTnE6eLvT0Dfl/1t9oMgZ8tWVR7tsQ3iN0UCtQX5wrQuF2zwXUzfq847SdnNX/jjeBY1AJaHw0NocEYjup+AqQ6QwEQkIj7DSjHXs6VTEzuxfXeWn276zdoZwaK83t4N3kHfXonbTegZlcNkAG38uWmTnGuoPwUK5dzcuSh6/Y0BvyLqgEZtnfSq3bSAnXCGjAFBQegDWl5EYEqaFZRnLiJvqLc8MllniqN8dUGPU4Da8Cs3SQ4dgDCDaCSglCuQQEGKB17BMFyzu7hWMnE8GXQUs9XO1L9Rd7auN21YBwxAShnYIoNCM/pOK62zINGPMoBqJ1j9qV23AvvXZqDJtzX1gTAq81jvuJj164A9Y5ZkNoVjILTdQYzdQATpC0FbfQJeWGO6C/yVGu8Kw96eQA7SGAMjZsSqLWDWtYu2rvJMUPBLcilObyT7IAxnigCZVhHzCo0cg/2F6Rd/cUGbMi5iwRkdtLsmrV7JA0YJ2sXE3OtQrewgCk2kEsodhOskjNfki1OLHH3aMyxB70w1i5CTvB4QAcMNNauMpx2vYMOZ4mTzhoAVe6WJ5fYrpRtRE1s0Ljxw/NSVfIzDxdbu6mhVAMWkDPOsXaRcwD1lhfK4aaAHD36joyc6pPWiIxIMXxExo4/I6M9FTLanQf5SCL6NjlychNjLmbNUd3rVFj2eJI0tj18e9ftKNpRJY+uyjeAFpwC1MB6l5y72v+9cob+skOceR2NrGGgWLdXRLtzAUvSkN3kuXCu65jWqjzS5Yl/Cp7mqmTv3u9KH/Sz361wAiZAK9Gj5seNRxquf1LGRkY0mhqnwkK+8d5FuTU4Khuhto8uyY/7o3pWjyieyomnAeQBnEc5w6o8RrUuqikBGp5j6vFPwbunqiZ3b5XI3VMlvXvWyb9//24NqM6p8yzyWVWxGNq2RdOo8XrPRfnQjk9lfu2QXLRhmD1/gxbiyvrzWHNJr1Yj9kmAwSAZ7coBKBxxjMB1HOlyq7grG/AUuzHvXq/xqYF1PYAXBE+NPPhUOcNaL9Bigs6WJ4wWZ8vB+ic0Au14TP60WYHnaeA8irW4Tq6borV0jRmx408xlAYTka5sDZsNeI6N0GiWrmcFGZ6Oj+fFSuFBA7kvVkkPRL75oaXi5OIscWJxFgPrmPO+dSuFOTYEsrZuJA7Y91tbVs0xT6JrrCbwkkePlgOe4FiAZdnxW+SZWJNp1WQwOcnl2bO20rO7UiaqsKlCfrDcLU4UZInjBdRElmQvyBTn33hV3RjjJ9vPAzTskIL1xtXCdo45k/8Y15ohhg9r6EwRg6JvZTJwtCsDcQYaQExONc6hjowal2dXRV3OrgqpVMlODeTsrhBP/HyZBR26O1OGCjJl77oV+pZSvoYzTyBjSzUxtuy5145e1D8N7/XhAhuOlW55BIp1paMZitOUOhbWu3J2rg26d1ZI964K4WzCvWutoHr3PR7J8FrnnvuDvp2Uq58dlrm/CdsCUFx+OTnW/cjxFGInN2noNBJg00RMOdcinQutuUgn5emvUgMh98618jISP/h9mTi+KEOElOSFdw/zzT7Cx6IHACQCMfGVNThGLWy9C2KoWwESKMMuVNCdqULVUlFDTEIc60wNubJ3rhHuHYCFsllrVIw6xVR7vcrLDRxDA+blbf3gkswBEOvX2jWgcmfNWYfTesis+Zs5RqO9AAYka4HDLYlIh/JoZwqOUErYld1MkIAlv4xKG8plKD9dHMtLE+pOUgZaL0g3IIwMbFxtjNjAO+tbWj7XPxXvQQeDATKFIW3NF9GO+TzPOcVwV9aO1SILkPFaLbO2QyoWmVD9Dwvksbx0qwG6qYFwKvsKeeKcqcU1QKAWrNE8pc75aI5jrJnHsStr+5pwZvMqkUnAEMXsTatUzlolFgXK5fuFGfiS1ss3evXoqMx+dFBmPXqOnUDYnXGCm7VZVHPUW3AceUSGDSA0F8dlLvK5JucaOdfbk7nmyti+KqQgV0vEwgKHG1Gd9Mv1hfLzI918rz68eASkpODGVuLcF9d+eEp9TxJDXQoUcARoFO2YI6hm6pxzbU7IlbFt1X5IZhjYbfcmxPcKFsVYd+SvjXwzGjXbhmUmADIBpfzateKZIf3T8DH6n8cAOAeg8Yq0z4bPBvRsQbGVt88JujKbVtcpOA1LzZgcSt9WLtLZ7yUX99VV6ttJuf/dizLjkXMyAyAsxATFtavIrNv/7qj+aWjgnSWAnAUwApwlYogj7bNk5NAszsktUf3gzHpXWmN5jYKEtpZLEoNvNVI1JZV3n3pf31LK6q0jMh0gRgSV/sh/LVDnXPyac7h2WP8UHJ+BfRpuJivaPhON3AXNBDhyrt2l4natQzMq8WXOn8RwjeUybetKbgJNIS4X7E5RDWtKX6qWIxc/5Rv3DsZk2VNhmQZoAk/7lXI7PmfVaI2plT0dlr36H7CR0U+x+wWAu0uBHpqh4xki6nCqRQ7NUHn7DCGDd6pf8tMaVwYhDUq+EvDwP5qarlOua4+/FeCb06AmHsRuEtwXpBtw6gGspWvMGPr4MQ1NcNMBOx3xdByR6VYebWennOuxg9PtX/AXNq5cvxBgtlYIR5xQh15QtY1HdmsENV45MipLnhyUqYBcCBk3eqBxSL7iOPM0Xn6/SQ4G6dgosMjBOy1FD90JaDu36kr234mS6/xJAAunAo7EgBqSPNWI5vWcqdGToCPgHB/2ReWb/74oG978TG488BkauxC34zRGRs/LxzsDct9r+PJ26A6h4O7QMRwiV7odOUso3YHfBfTxMQNwtRZogPwekRq4BzGE2gKdLwjAdY6Y5/177hcvf/RPjXb18Xbfe9L/4v3C37QcsLczoIKcBrhpdq1tGovglU8V7G3TmjW2PegpAGjQgC3YwrBKW8ricm7E5DSnc//u++XjHQEG/GTktMaVHFOt4fAu6dtepa7FdScO4FPFApsKyKnxcdtUNGTnkbbbWBeCSWP/hS4lsKI2RcOmBMqEBc5upHKswzzWOWKub9ZCzXKed9ZKxS/2egF7GwGyKziCnqJj0pQ4p7nYwSlX/kMvbtBjQWgZ+JTNpVrO+cTcWTPrS+X8zaUKHrE34JfH/4UXUUMxYJAgp1CufbLgWnAycggea5t8TGNefiQH/Mm4SXj+JtxUiwEcTjDKS4QB4xoLNX2dtcaZbyqR9fvSATeZIBVoW5KIQpFgkq5RTtCTuKY0KSwvd3QSx/yGkpp5m0oEydxUCfFGOAn5PLi9Rs3xdaZOzmvt65Y1LtWgNpyKJ2ngSTJq+UQRaZ3IHg0mXdv/1qRsLNvAIGOq2IK0ag3FCWtszeX1Sn95BV+NCcwABicCXDvD3groW6mmRHHLxLH/oHu1gZvXMhhEEHONM4wCQ03Ma0BMc855nRsn3deUp4AcAjBAE2u3YMcpvkXGgrd8vf+1xMdrFW4eTn7eb0M+XyyTG/yAhxCb2lysoTrP0ZqE/Pg/8HICjsDiNQH1CahPQHyziEKIw5daJtRojK830EQy4EIM+DyA6rWrXMfLKVdzRtb8cvHwziwFx6A3Sw2pXectN+G4QK0398jg+C/3wl7LAEytAZtDwPXLGXROPcXKrbhOzZEKNxdg9/GpAlCWBo223mRBR1vHIx4XjrSM/2rn/csOehqAamZYQDo1+7kibmB2PZzyuiKub/0zfg1kwPGA1TowzoqjrTcOwmvxMfnF/7j4pgY3UuevAWAPg6sGnEKtSC7ZVABIgtUCeLRlnIgcuBHg44KXguPWf6vgYw3dTBV2vG7Ws8uCgA9RE4jFn/bhl5CWG/BC3hAC9H40UXcp+J3q6wPtcv0P8b6M+c3aLu0AAAAASUVORK5CYII=" InformativeScreenshot="4c028edeb4885e34582ccf3148402af5.jpg" Selector="&lt;html app='chrome.exe' title='AECC - Directorio de Centros comerciales' /&gt;" Title="AECC - Directorio de Centros comerciales" Url="https://directoriocentroscomerciales.aedecc.com/busqueda" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
